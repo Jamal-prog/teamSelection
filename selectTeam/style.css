@@ -16,7 +16,10 @@ body {
 .nav {
     width: 100%;
     height: 65px;
-    position: fixed;
+    /* position: fixed; */
+    background-image:  url("https://alltimelines.com/wp-content/uploads/2019/10/homepagebanner-marvel.jpg");
+ 
+    color: black;
     line-height: 65px;
     text-align: center;
 }
@@ -357,12 +360,14 @@ body {
 	}
 }
 .footer-dark {
-    height:30%;
+   
     bottom: 0%;
+    padding: -30%;
     margin-bottom: 0%;
-    color:#f0f9ff;
-    background-color:#282d32;
+    color:black;
+    background-image: url("https://alltimelines.com/wp-content/uploads/2019/10/homepagebanner-marvel.jpg");
     width: 100%;
+    font-family: "Press Start 2P", sans-serif;
   }
   
   .footer-dark h3 {
@@ -385,7 +390,9 @@ body {
     text-decoration:none;
     opacity:0.6;
   }
-  
+  #icon{
+      color : black
+  }
   #icon:hover{
       background-color: #D81159;
   }
@@ -456,4 +463,12 @@ body {
       margin-top: 75px;
       box-shadow:  10px 5px 5px red;
 
+  }
+  #header{
+      color: red;
+      font-family: "Press Start 2P", sans-serif;
+      font-size: 30px;
+  }
+  #bgcolor {
+      background-image: url("https://cutewallpaper.org/21/cool-marvel-backgrounds/Cool-Marvel-Wallpapers-63-pictures-.jpg");
   }
