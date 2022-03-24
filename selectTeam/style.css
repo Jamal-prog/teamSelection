@@ -18,7 +18,7 @@ body {
     height: 65px;
     /* position: fixed; */
     background-image:  url("https://alltimelines.com/wp-content/uploads/2019/10/homepagebanner-marvel.jpg");
- 
+    
     color: black;
     line-height: 65px;
     text-align: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: red;
 }
 
 .nav div.main_list {
@@ -70,7 +70,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: red;
 }
 
 
